@@ -77,3 +77,42 @@ var keepRocks = function(rocksToKeep)
 			return(rocksFound);
 };
 		
+var whoCameWith = function(me,partner)
+{
+	var didntCome = "Mike";
+	peopleSummary = me + "and " + partner + ", were the only too looking for rocks today " + didntCome + " didn't come, if so we could have cathered more";
+
+	return(peopleSummary);
+};
+
+var shapeOfRocks = function(numberOfRocks,typesOfShapes)
+{
+	for (var difTypeRocks = numberOfRocks; difTypeRocks >= 0 && difTypeRocks <= 5; difTypeRocks--) 
+	{
+		foundSoFar++;
+		output("So far we have found " + foundSoFar + " different shapes of rocks! The most recent was a " + shapeOfRocks[difTypeRocks]);
+	};
+	return(foundSoFar);
+};
+
+output(greeting);
+if(myName || partnerName == "Brandon Lee")
+{
+	output("Sure lets go Brandon Lee!");
+}
+output("So far we have found " + rocksFound + " rocks.");
+rocksFoundHere(rocksFound);
+lunch(time,getLunch);
+
+if(rocksFound > 0)
+{
+	keepRocks(rocksFound);
+}
+else
+{
+	output("I guess we won't be finishing the garden today.");
+};
+
+whoCameWith(myName,partnerName);
+whatShapeOfRocks(3,shapeOfRocks);
+output(peopleSummary + "He missed out " + foundSoFar + " pretty cool looking rocks!");
