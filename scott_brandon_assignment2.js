@@ -80,7 +80,7 @@ var keepRocks = function(rocksToKeep)
 var whoCameWith = function(me,partner)
 {
 	var didntCome = "Mike";
-	peopleSummary = me + "and " + partner + ", were the only too looking for rocks today " + didntCome + " didn't come, if so we could have cathered more";
+	peopleSummary = me + "and " + partner + ", were the only two looking for rocks today " + didntCome + " didn't come, if so we could have cathered more";
 
 	return(peopleSummary);
 };
@@ -116,3 +116,15 @@ else
 whoCameWith(myName,partnerName);
 whatShapeOfRocks(3,shapeOfRocks);
 output(peopleSummary + "He missed out " + foundSoFar + " pretty cool looking rocks!");
+
+
+if(lunchTime == true)
+{
+	output("That place stopped at for lunch was amazeballs!");
+}
+else
+{
+	output("I'm starving, Lets go soon!");
+};
+output("We have " + rocksFound + " to add to our sand garden.");
+
