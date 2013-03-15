@@ -114,7 +114,7 @@ else
 };
 
 whoCameWith(myName,partnerName);
-whatShapeOfRocks(3,shapeOfRocks);
+shapeOfRocks(3,shapeOfRocks);
 output(peopleSummary + "He missed out " + foundSoFar + " pretty cool looking rocks!");
 
 
