@@ -68,7 +68,7 @@ var keepRocks = function(rocksToKeep)
 				rocksToKeep--;
 				rocksPutBack++;
 				
-				output("We put back " + rocksPutBack + " rocks and now we have " + rockToKeep + " of them left. ");
+				output("We put back " + rocksPutBack + " rocks and now we have " + rocksToKeep + " of them left. ");
 			
 			
 			
