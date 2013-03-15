@@ -28,7 +28,7 @@ var findAnotherSpot = function(newSpot)
 		}
 		else
 		{
-			console.log("We will go to our regular spot in the metro parks"
+			console.log("We will go to our regular spot in the metro parks")
 		};
 };
 
