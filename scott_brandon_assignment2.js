@@ -24,11 +24,11 @@ var findAnotherSpot = function(newSpot)
 {
 		if(newSpot == true)
 		{
-			console.log("Lets find a new spot to look for rocks. Maybe theres betters ones in the creek.")
+			console.log("Lets find a new spot to look for rocks. Maybe theres betters ones in the creek.");
 		}
 		else
 		{
-			console.log("We will go to our regular spot in the metro parks")
+			console.log("We will go to our regular spot in the metro parks");
 		};
 };
 
@@ -68,7 +68,7 @@ var keepRocks = function(rocksToKeep)
 				rocksToKeep--;
 				rocksPutBack++;
 				
-				output("We put back " + rocksPutBack + " rocks and now we have " + rockToKeep + " of them left. "
+				output("We put back " + rocksPutBack + " rocks and now we have " + rockToKeep + " of them left. ");
 			
 			
 			
