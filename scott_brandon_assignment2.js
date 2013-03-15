@@ -25,7 +25,7 @@ var findAnotherSpot = function(newSpot)
 		if(newSpot == true)
 		{
 			console.log("Lets find a new spot to look for rocks. Maybe theres betters ones in the creek."
-		}
+		})
 		else
 		{
 			console.log("We will go to our regular spot in the metro parks"
