@@ -72,3 +72,13 @@ var ticketCounter = {
 		console.log("He walks up to the ticket counter and the cashier who attends him is " + ticketCounter.names[2] + ".");
 	}
 
+}
+ticketCounter.buyTickets()
+
+for (var tickets = 1; tickets < 3; tickets ++) {
+	console.log(ticketCounter.names[2] + " hands my boyfriend ticket number " + tickets + ".");
+	for (var voucher = 1; voucher < 2; voucher ++) {
+		console.log(ticketCounter.names[2] + " also gives my boyfriend a coupon.");
+	}	
+
+};
