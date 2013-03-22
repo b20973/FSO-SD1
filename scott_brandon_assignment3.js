@@ -39,7 +39,7 @@ var theater = {
 		"mozzarella sticks"
 	],
 	watchMovie: function () {
-		console.log("Did" + cousin + " remember to buy our ticket package in advance? " + theater.free);
+		console.log("Did " + cousin + " remember to buy our ticket package in advance? " + theater.free);
 	}
 }
 
@@ -90,7 +90,7 @@ var restaurant = {
 	server: "Bobby",
 	seats: 4,
 	haveDinner: function() {
-		console.log("We purchased our movie tickets " + restaurant.seats + " early enough so that we can go have a few drinks and eat before watching the movie.");
+		console.log("We purchased our movie tickets " + restaurant.seats + " hours early so that we can go have a few drinks and eat before watching the movie.");
 	}
 }
 restaurant.haveDinner()
