@@ -104,3 +104,19 @@ if (movieType1 === "action") {
 } else {
 	console.log("We decided to go eat at " + restaurant.name + ".");
 };
+
+//Method Mutator
+
+var dish = {
+	name: "El Diablo",
+	ingredients: [
+		"jalapenos",
+		" beef patty",
+		" jack cheese"
+	],
+	dishChoice: function() {
+	dish.name = "El Diablo"
+		console.log("I chose to have " + dish.name + " for dinner.");
+		console.log("It's my favorite dish, which has " + dish.ingredients + " on thick cut bread with coleslaw and fries.");
+	}
+};
