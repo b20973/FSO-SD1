@@ -120,3 +120,10 @@ var dish = {
 		console.log("It's my favorite dish, which has " + dish.ingredients + " on thick cut bread with coleslaw and fries.");
 	}
 };
+var numberOfPeople = 4;
+while (numberOfPeople <= 4) {
+	console.log("Now it's time for some good eatin!");
+	numberOfPeople ++;
+
+}
+dish.dishChoice()
