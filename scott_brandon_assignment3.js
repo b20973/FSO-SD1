@@ -82,3 +82,15 @@ for (var tickets = 1; tickets < 3; tickets ++) {
 	}	
 
 };
+
+//Method Accessor
+
+var restaurant = {
+	name: "Melt", 
+	server: "Bobby",
+	seats: 4,
+	haveDinner: function() {
+		console.log("We purchased our movie tickets " + restaurant.seats + " early enough so that we can go have a few drinks and eat before watching the movie.");
+	}
+}
+restaurant.haveDinner()
