@@ -50,7 +50,7 @@ if (destination1 === "movies") {
 		console.log("Not a problem.")
 		console.log("We'll have to pay $" + theater.price + " per person.");
 	} else {
-		console.log("This is pretty great, we will get to watch another movie for free!!");
+		console.log("This is pretty great, we will get to watch another movie for free!");
 	}
 } else {
 	console.log("We'll all have extra money!");
