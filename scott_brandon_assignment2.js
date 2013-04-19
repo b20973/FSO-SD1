@@ -13,7 +13,7 @@ var greeting = "Hey! Lets go get some rocks!",
 	myName = "Brandon Lee",
 	partnerName = "Gerald",
 	peopleSummary;
-	foundSoFar = 0;
+	foundSoFar = 9;
 	shapeOfRock = ["Round", "Square", "Rectanglar", "Odd Shaped"];
 
 var output = function(out)
@@ -115,7 +115,7 @@ else
 
 whoCameWith(myName,partnerName);
 var arr = shapeOfRocks(3, shapeOfRock);
-console.log("string" + arr + "sting")
+console.log("" + arr + "")
 output(peopleSummary + " He missed out on " + foundSoFar + " pretty cool looking rocks!");
 
 
