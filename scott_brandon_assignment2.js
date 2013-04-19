@@ -90,7 +90,7 @@ var shapeOfRocks = function(numberOfRocks,typesOfShapes)
 	for (var difTypeRocks = numberOfRocks; difTypeRocks >= 0 && difTypeRocks <= 5; difTypeRocks--) 
 	{
 		foundSoFar++;
-		output("So far we have found " + foundSoFar + " different shapes of rocks! The most recent was a " + shapeOfRocks[typesOfhapes]);
+		output("So far we have found " + foundSoFar + " different shapes of rocks! The most recent was a " + shapeOfRocks[rockTypes]);
 	};
 	return(foundSoFar);
 };
@@ -114,7 +114,8 @@ else
 };
 
 whoCameWith(myName,partnerName);
-shapeOfRocks(3, "Round", "Square", "Rectangular", "Odd Shaped");
+//shapeOfRocks
+var rockTypes = shapeOfRocks (3, ["Round", "Square", "Rectangular", "Odd Shaped"]);
 output(peopleSummary + " He missed out on " + foundSoFar + " pretty cool looking rocks!");
 
 
