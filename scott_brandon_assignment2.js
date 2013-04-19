@@ -115,7 +115,7 @@ else
 
 whoCameWith(myName,partnerName);
 var arr = shapeOfRocks(3, shapeOfRock);
-console.log("" + arr + "")
+console.log(" With these " + arr + " stones to add we will have a beautiful garden")
 output(peopleSummary + " He missed out on " + foundSoFar + " pretty cool looking rocks!");
 
 
