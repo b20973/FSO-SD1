@@ -14,7 +14,7 @@ var greeting = "Hey! Lets go get some rocks!",
 	partnerName = "Gerald",
 	peopleSummary;
 	foundSoFar = 0;
-	shapeOfRocks = ["Round", "Square", "Rectanglar", "Odd Shaped"];
+	shapeOfRock = ["Round", "Square", "Rectanglar", "Odd Shaped"];
 
 var output = function(out)
 {
@@ -87,7 +87,7 @@ var whoCameWith = function(me,partner)
 
 var shapeOfRocks = function(numberOfRocks,typesOfShapes)
 {
-	for (var difTypeRocks = numberOfRocks; difTypeRocks >= 0 && difTypeRocks <= 5; difTypeRocks--) 
+	for (var difTypeRocks = numberOfRocks; difTypeRocks >= 0 && typesOfShapes <= 5; difTypeRocks--) 
 	{
 		foundSoFar++;
 		output("So far we have found " + foundSoFar + " different shapes of rocks! The most recent was a " + shapeOfRocks[rockTypes]);
@@ -114,8 +114,8 @@ else
 };
 
 whoCameWith(myName,partnerName);
-//shapeOfRocks
-var rockTypes = shapeOfRocks (3, ["Round", "Square", "Rectangular", "Odd Shaped"]);
+var arr = shapeOfRocks(3, shapeOfRock);
+console.log("string" + arr + "sting")
 output(peopleSummary + " He missed out on " + foundSoFar + " pretty cool looking rocks!");
 
 
