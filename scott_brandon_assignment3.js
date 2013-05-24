@@ -42,3 +42,33 @@ var haveEnough = function (paycheck1){
 	};
 };
 
+//number function2
+var incomeEachWeek = function(income1,income2){
+	for (var i = 0; i<= 4; i++){
+		var totalIncome =  (income1 + income2);
+		jobs.weeklyIncome.push(totalIncome);
+	};return jobs.weeklyIncome;
+};
+
+//array function
+var billsDue = function (bills){
+	for (key in json.weeks) {
+		amountEachWeek = json.weeks[key];
+		weeks.push(key);
+			console.log("I have $"+amountEachWeek+" due in week "+key);
+		if (amountEachWeek <= 200) {
+				console.log("I made enough this week so I can save more then the usual amount of $"+usualAmount);
+				jobs["enoughEachWeek"].push(true);
+		} else if (amountEachWeek<300){
+			console.log("I can only save the usual amount")
+				jobs.enoughEachWeek.push(false)
+
+		}else{
+			console.log("I have to many bills this week to put my usual amount of $"+usualAmount);
+			jobs.enoughEachWeek.push(false);
+		};
+	};
+	//console.log(jobs.enoughEachWeek);
+	return jobs.enoughEachWeek, weeks;
+};
+
