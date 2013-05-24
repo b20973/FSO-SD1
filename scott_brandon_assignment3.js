@@ -72,3 +72,17 @@ var billsDue = function (bills){
 	return jobs.enoughEachWeek, weeks;
 };
 
+//number function1
+var saveMore = function (amount,number){
+	usualAmountTwo = amount + number;
+	var n = 0;
+	while(n<= jobs.enoughEachWeek.length-1){
+		if (jobs.enoughEachWeek[n]==true){
+			console.log("I have made enough to double my amount of savings the "+weeks[n]+" week of $"+usualAmountTwo);
+
+		}else {
+			console.log("The "+weeks[n]+" week I can only save the usual amount of $"+usualAmount);
+		};
+	n++;
+	};return usualAmountTwo;
+};
