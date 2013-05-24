@@ -86,3 +86,22 @@ var saveMore = function (amount,number){
 	n++;
 	};return usualAmountTwo;
 };
+
+
+
+//procedure
+var amountToSave = function(amount){
+	haveEnough(jobs.paycheck1);
+	if (enough == true){
+		incomeEachWeek(jobs.paycheck1,jobs.paycheck2);
+		billsDue(json.weeks);
+		saveMore(amount,25);
+	}else {
+		billsDue(json.weeks);
+		console.log(jobs.nextWeek,toMany);
+	};
+};
+
+
+jobs.getHoursWorked(3)
+amountToSave(50);
