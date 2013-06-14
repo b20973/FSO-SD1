@@ -55,3 +55,7 @@ var saveMore = function (number){
 	n++;
 	};return usualAmountTwo;
 };
+
+//string function
+var notEnough = function (str, str2){
+	console.log(str+str2);
