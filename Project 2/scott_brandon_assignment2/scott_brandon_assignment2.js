@@ -12,3 +12,12 @@ var usualAmount = 25,//usual amount to save.
 	next ="I don\'t have enough for this week.",
 	toMany="I have to many bills this week to put my usual amount of $"+usualAmount
 ;
+//booleanfunction
+var haveEnough = function (paycheck1,paycheck2){
+	if (paycheck1 == 350 && paycheck2 >=75) {
+		console.log("I can maybe save the usual amount of $"+usualAmount)
+		return enough = true;
+	} else{
+		return enough = false;
+	};
+};
