@@ -49,4 +49,9 @@ var saveMore = function (number){
 		if (enoughEachWeek[n]==true){
 			console.log("I have made enough to double my amount of savings the "+weeks[n]+" week of $"+usualAmountTwo);
 
-		
+		}else {
+			console.log("The "+weeks[n]+" week I can only save the usual amount of $"+usualAmount);
+		};
+	n++;
+	};return usualAmountTwo;
+};
