@@ -21,3 +21,22 @@ var haveEnough = function (paycheck1,paycheck2){
 		return enough = false;
 	};
 };
+
+//array function
+var billsDue = function (bills){
+	for (var i = 0; i <= bills.length-1; i++) {
+			console.log("I have $"+bills[i]+" due in week "+weeks[i]);
+		if (bills[i] <= 200) {
+				console.log("I made enough this week so I can save more then the usual amount of $"+usualAmount);
+				enoughEachWeek.push(true);
+		} else if (bills[i]<300){
+			console.log("I can only save the usual amount")
+				enoughEachWeek.push(false)
+
+		}else{
+			console.log("I have to many bills this week to put my usual amount of $"+usualAmount);
+			enoughEachWeek.push(false);
+		};
+	};console.log(enoughEachWeek);
+	return enoughEachWeek;
+};
