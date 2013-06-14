@@ -59,6 +59,7 @@ var saveMore = function (number){
 //string function
 var notEnough = function (str, str2){
 	console.log(str+str2);
+};
 	
 	//procedure
 var amountToSave = function(amount){
