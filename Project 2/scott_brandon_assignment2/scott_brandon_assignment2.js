@@ -59,3 +59,17 @@ var saveMore = function (number){
 //string function
 var notEnough = function (str, str2){
 	console.log(str+str2);
+	
+	//procedure
+var amountToSave = function(amount){
+	haveEnough(350,75);
+	if (enough == true){
+		billsDue(bills);
+		saveMore(25);
+	}else {
+		billsDue(bills);
+		notEnough(next,toMany);
+	};
+};
+
+amountToSave(25);
