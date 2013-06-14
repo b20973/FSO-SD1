@@ -40,3 +40,13 @@ var billsDue = function (bills){
 	};console.log(enoughEachWeek);
 	return enoughEachWeek;
 };
+
+//number function
+var saveMore = function (number){
+	usualAmountTwo= usualAmount + number;
+	var n = 0;
+	while(n<= enoughEachWeek.length-1){
+		if (enoughEachWeek[n]==true){
+			console.log("I have made enough to double my amount of savings the "+weeks[n]+" week of $"+usualAmountTwo);
+
+		
