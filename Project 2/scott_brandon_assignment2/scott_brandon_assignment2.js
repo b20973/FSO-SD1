@@ -34,7 +34,7 @@ var billsDue = function (bills){
 				enoughEachWeek.push(false)
 
 		}else{
-			console.log("I have to many bills this week to put my usual amount of $"+usualAmount);
+			console.log("I have too many bills this week to put my usual amount of $"+usualAmount);
 			enoughEachWeek.push(false);
 		};
 	};console.log(enoughEachWeek);
@@ -47,10 +47,10 @@ var saveMore = function (number){
 	var n = 0;
 	while(n<= enoughEachWeek.length-1){
 		if (enoughEachWeek[n]==true){
-			console.log("I have made enough to double my amount of savings the "+weeks[n]+" week of $"+usualAmountTwo);
+			console.log("I have made enough to double my amount of savings for week "+weeks[n]+" of $"+usualAmountTwo);
 
 		}else {
-			console.log("The "+weeks[n]+" week I can only save the usual amount of $"+usualAmount);
+			console.log("In week "+weeks[n]+", I can only save the usual amount of $"+usualAmount);
 		};
 	n++;
 	};return usualAmountTwo;
