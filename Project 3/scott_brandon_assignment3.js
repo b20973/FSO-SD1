@@ -86,3 +86,11 @@ var passenger = function (name,age,gender) {
 		"luggageFees": luggageFees
 	};
 
+};
+//Travelers Names
+var passenger1 = passenger("Cathy",34,"Female");
+passengerList.push(passenger1);
+var passenger2 = passenger("Brandon Lee",28,"Male");
+passengerList.push(passenger2);
+var passenger3 = passenger("Lennon",11,"Female");
+passengerList.push(passenger3);
