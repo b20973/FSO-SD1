@@ -113,3 +113,20 @@ if (passengerList.length === 3){
 } else {
 	passenger1.takeFlight(false);
 };
+
+console.log(" ");
+console.log("Passenger Names: " + passengerList[0].name() + ", " + passengerList[1].name() + ", " + passengerList[2].name());
+
+
+console.log(passenger1.name() + " is " + passenger1.age());
+console.log(passenger2.name() + " is " + passenger2.age());
+console.log(passenger3.name() + " is " + passenger3.age());
+
+console.log(" ");
+passenger1.timeRemaining(2)
+passenger2.timeRemaining(2)
+passenger3.timeRemaining(2)
+
+console.log(" ");
+console.log("Total luggage fees for this trip will be $" + passenger1.luggageFees(json));
+
