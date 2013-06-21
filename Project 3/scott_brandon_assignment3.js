@@ -85,3 +85,4 @@ var passenger = function (name,age,gender) {
 		"timeRemaining": checkinTime,
 		"luggageFees": luggageFees
 	};
+
