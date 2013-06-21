@@ -94,3 +94,22 @@ var passenger2 = passenger("Brandon Lee",28,"Male");
 passengerList.push(passenger2);
 var passenger3 = passenger("Lennon",11,"Female");
 passengerList.push(passenger3);
+
+
+
+passenger1.addContents(["bathing suits", "sun glasses", "flip flops, sunscreen"]);
+passenger2.addContents(["beach chairs", "snorkle", "towels", "toiletries"])
+passenger3.addContents(["sand toys", "umbrella", "crab net", "goggles", "kite"]);
+
+console.log(" ");
+console.log(passenger1.name() + "'s suitcase contains: " + passenger1.listContents()+ ".");
+console.log(passenger2.name() + "'s suitcase contains: " + passenger2.listContents()+ ".");
+console.log(passenger3.name() + "'s suitcase contains: " + passenger3.listContents()+ ".");
+console.log("I think we have everything packed");
+
+console.log(" ")
+if (passengerList.length === 3){
+	passenger1.takeFlight(true);
+} else {
+	passenger1.takeFlight(false);
+};
