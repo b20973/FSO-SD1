@@ -134,3 +134,8 @@ Function diffBetween(date1,date2) {
     
     }
 }
+
+
+//CHECK 8
+console.log (diffBetween(date1(20-06-2012) + (date2(25-06-2012);
+//END PROBLEM 8   
