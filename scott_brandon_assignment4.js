@@ -195,4 +195,46 @@ function findSmallestNum() {
 
 //CHECK 10
   return console.log(filtered.sort());
-  
+
+
+
+
+
+
+//PROBLEM 11
+//Find the total value of just the numbers in an array, even if some of the items are not numbers.]
+
+//I will use array= 2, 4, 6, a, 8, b
+
+var myNumbers=new Array();
+	myNum[0]= 2
+	myNum[1]= 4
+	myNum[2]= 6
+	myNum[3]= “a”
+	myNum[4]= 8
+	myNum[5]= “b”
+
+var myNumbers=new Array [2, 4, 6, a, 8, b];
+funtion findTotalValueArray(0+1+2+3+4+5) {
+
+};
+
+
+//END 11
+
+
+
+
+
+
+//PROBLEM 12
+//Given an array of objects and the name of a key, return the array sorted by the value of that key in each of the objects: “a” + [ {a:2}, {a:3}, {a:1}] -> {{a:1}, {a:2}, {a:3}].
+// key is a
+//sort array by the key a
+
+var myObjects=[{a:2}, {a:3}, {a:1}] -> {{a:1}, {a:2}, {a:3}];
+	myObjects.sort();
+myObjects.sort(function(a:2) {return 1-3});	
+
+
+//END 12  
