@@ -138,4 +138,61 @@ Function diffBetween(date1,date2) {
 
 //CHECK 8
 console.log (diffBetween(date1(20-06-2012) + (date2(25-06-2012);
-//END PROBLEM 8   
+//END PROBLEM 8 
+
+
+
+
+
+
+
+
+
+//PROBLEM 9
+//Given a string version of a number such as "42", return the value as an actual Number, such as 42.
+
+
+
+var string = “This is how we show a string as a number !”
+var n = numToString();
+
+{
+var num = 42;
+var n = numToString("test");
+x.innerHTML=numToString();
+}
+
+//CHECK 9
+console.log(string.toNum);
+//END 9
+
+
+
+
+
+//ARRAY
+
+//PROBLEM 10
+//Find the smallest value in an array that is greater than a given number
+
+
+function findSmallestNum() {
+    function isBigEnough(element, index, array) {
+        return (element >= 25);
+    }
+    var filtered = [1, 5, 10, 15, 20, 25, 30, 35, 40].filter(isBigEnough);
+        
+    
+    isBigEnough();
+    filtered.sort(function (a, b) {
+        return a - b;
+    });
+
+
+    filtered.sort(function (a, b) {
+        return a - b;
+    });
+
+//CHECK 10
+  return console.log(filtered.sort());
+  
