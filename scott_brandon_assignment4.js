@@ -89,3 +89,30 @@ fixCase("brandon scott");
    
 console.log(fixCase.toProperCase());
 //END PROBLEM 4
+
+
+
+
+
+
+
+
+//NUMBER
+//PROBLEM 6
+//Format a number to use a specific number of decimal places, as for money: 2.1 &#8594; 2.10
+
+var num = 2.1;
+var result = num.toFixed(2.1); 
+var money = moneyToFix;
+	function fixMoney(moneyToTest); {
+    	var money = moneyToTest
+    		money.toFixed(2.1)
+
+    return console.log(money.toFixed(2.1));
+	};
+
+
+//CHECK 6
+num = 2.10;
+result = num.toFixed(2); 
+//END PROBLEM 6
