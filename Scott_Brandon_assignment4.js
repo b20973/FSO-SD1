@@ -41,7 +41,7 @@ function checkEmail() {
 }
 
 //CHECK 2
-console.log(checkEmail("cfoisy@fullsail.edu"));
+console.log(checkEmail("iamlee@fullsail.edu"));
 
 //Again on problem 2 I was able to find the pattern to help validate an email adress. I am not sure if there is an easier way to do this. 
 //END PROBLEM 2
