@@ -97,6 +97,7 @@ console.log(fixCase.toProperCase());
 
 
 
+
 //NUMBER
 //PROBLEM 6
 //Format a number to use a specific number of decimal places, as for money: 2.1 &#8594; 2.10
@@ -116,3 +117,20 @@ var money = moneyToFix;
 num = 2.10;
 result = num.toFixed(2); 
 //END PROBLEM 6
+
+
+
+
+
+//PROBLEM 8
+//Find the number of hours or days difference between two dates.
+
+Function diffBetween(date1,date2) {
+    var second=1000, minute=second*60, hour=minute*60, day=hour*24, week=day*7;
+    date1 = new Date(date1);
+    date2 = new Date(date2);
+    var timediff = date2 - date1;
+    if (isNaN(timediff)) return NaN;
+    
+    }
+}
