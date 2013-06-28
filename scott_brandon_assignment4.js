@@ -64,3 +64,28 @@ var checkURL = function(val){
 //CHECK 3
 console.log(lib.checkURL(“http://www.google.com”));
 //END PROBLEM 3
+
+
+
+
+
+
+//PROBLEM 4
+//Title-case a string (split into words, then uppercase the first letter of each word)
+
+    
+funtion (fixCase(str)){
+String.prototype.to
+{
+	return str.replace(/\w\s*/g, function(txt){
+		return txt.charAt(0).toProperCase() + txt.substring(1).toLowerCase();
+		};    
+    
+    fixThis.toProperCase();
+
+    
+//CHECK 4
+fixCase("brandon scott");
+   
+console.log(fixCase.toProperCase());
+//END PROBLEM 4
